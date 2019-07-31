@@ -11,7 +11,7 @@
 	<groupId>com.ncr.passport.hyd</groupId>
 	<artifactId>image-steganography-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	
 	<name>image-steganography-service</name>
 	<description>Image Steganography</description>
@@ -24,12 +24,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<!-- <exclusions>
+			<exclusions>
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-tomcat</artifactId>
                 </exclusion>
-            </exclusions>  -->
+            </exclusions>
 		</dependency>
 		
 		<dependency>
